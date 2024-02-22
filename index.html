@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bangadhipati's Portfolio</title>
+    <link rel="shortcut icon" href="assets/Bangadhipati_logo.png"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">Bánghala Samrajyam<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link"><a href="#client">Clients</a></li>
+            <li class="link"><a href="#blog">Blog</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.jpeg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Blend of culture and new age technologies</h4>
+          <h1>Hi, I Am Bangadhipati.</h1>
+          <p>
+            Dynamic researcher with expertise in history, intellectual studies, proficient in a multitude of programming languages and cutting-edge technologies. Effective communicator with a penchant for non-conventional problem-solving and a strong work ethic. Strives to make a lasting impact in history and inspire others through innovation and collaboration.
+          </p>
+          <button class="btn">Subscribe</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpeg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Welcome to the universe of Bangadhipati</h2>
+        <p>
+          As a dedicated researcher with a passion for history and intellectual studies, coupled with a diverse skill set in technology, I bring a unique blend of expertise to the table. Proficient in programming languages such as C, C++, Python and Java, as well as cutting-edge technologies like Blockchain, Cloud Computing, and Big Data, I thrive on pushing boundaries and exploring unconventional solutions to complex problems.</p>
+        <h4>
+          Beyond my technical abilities, I possess strong communication skills, enabling me to effectively convey ideas, collaborate with diverse teams, and articulate complex concepts to both technical and non-technical audiences. I believe in taking a non-conventional approach to challenges, constantly seeking out-of-the-box solutions to drive innovation and create tangible impact.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/Bangadhipati_CV.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="mailto:bangadhipati@gmail.com"><i class="ri-mail-fill"></i></a>
+          <a href="https://github.com/Bangadhipati"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/Bangadhipati"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>DevOps</h4>
+          <p>
+            DevOps is a collaborative software development approach that integrates developers and operations teams to automate processes, streamline software delivery, and improve efficiency through continuous integration, delivery and deployment.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>BigData</h4>
+          <p>
+            We stay at forefront of technological advancements, ensuring your
+            digital presence performant.Big Data refers to the collection, processing, and analysis of vast and complex datasets to extract valuable insights and inform decision-making processes.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Historical Articles</Article></h4>
+          <p>
+            Craft compelling narratives that breathe life into the past, illuminating forgotten tales and sparking curiosity through meticulous research and captivating storytelling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Our Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Web</button>
+          <button class="btn project__btn" data-filter=".game">DevOps</button>
+          <button class="btn project__btn" data-filter=".design">
+            ApacheSpark
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets/project-1.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-2.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-3.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/project-4.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-5.jpeg" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-6.jpeg" alt="project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Services</p>
+      <h2 class="section__header">What I Do?</h2>
+      <p class="section__description">
+        Versatile professional with a comprehensive skill set spanning programming languages like C, C++, Java and Python, alongside expertise in web development tools such as HTML, CSS and JavaScript frameworks. Proficient in database management systems like MongoDB and experienced in DevOps practices including CI/CD, Docker and Kubernetes. Skilled in Big Data technologies like Apache Spark and app development with Kotlin, with a background in ethical hacking and IoT. Proficient in design tools like Figma and cloud computing platforms AWS, Azure and Google Cloud Platform, as well as blockchain technologies.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Web Development</h4>
+          <p>
+            Mastery in web development encompassing front-end and back-end technologies, from HTML, CSS, and JavaScript to frameworks like React.js and Node.js, ensuring seamless user experiences and robust server-side functionality.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>DevOps Development</h4>
+          <p>
+            Streamlining software development through continuous integration, deployment and automation for enhanced efficiency and collaboration across teams.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>BigData Development</h4>
+          <p>
+            Specialized in Big Data development, leveraging Apache Spark to extract valuable insights and optimize business operations.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Bengal's History Researcher</h4>
+          <p>
+            Dedicated Bengal history researcher delving into the region's rich past, uncovering forgotten narratives and contributing to a deeper understanding of its cultural heritage.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>Data Analysis</h4>
+          <p>
+            Data Analysis expert proficient in utilizing Power BI to extract actionable insights and drive informed decision-making.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>IoT</h4>
+          <p>
+            Utilizing Power BI for IoT data visualization and analysis to derive actionable insights and optimize operational efficiency.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <p class="section__subheader">Testimonials</p>
+      <h2 class="section__header">What My Alliances Think About Me</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-0.jpeg" alt="client" />
+              <div>
+                <p>
+                  "Hey, my future hubby! Who knew lines of code could be so appealing? Your DevOps skills are smoother than butter and your Apache Spark prowess? Well, let's just say you've sparked a flame in my heart! But it's not just your coding genius that makes me swoon – it's the way you lead with charm, wit and just the right amount of geekiness. You're my tech-savvy superhero and I'm so lucky to be by your side as you conquer the digital world... and my heart!"                </p>
+                <h4>Dr. Sahana Sheikh<span>Director, Imperial Bengal Space Research Organization (IBSRO)</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpeg" alt="client" />
+              <div>
+                <p>
+                  "Your dedication, creativity and drive never fail to impress me. You have an innate ability to tackle challenges head-on and turn them into opportunities for growth. Your passion for what you do shines through in every project you undertake, and it's truly inspiring to see. Keep shining brightly, Bro, because the world needs more trailblazers like you."
+                </p>
+                <h4>Dr. Mimusha Ghosh<span>Director, Imperial Bengal Defence Research & Development Organization (IBDRDO)</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpeg" alt="client" />
+              <div>
+                <p>
+                  "Alright, Boss (or should I say tech wizard extraordinaire?), I've gotta hand it to you – you've got the management skills of a ninja cat herder and the tech prowess of a coding unicorn! Seriously though, who knew you could juggle spreadsheets and software bugs with such finesse? Keep rocking those power meetings and debugging sessions like a true champ! Just remember, when the robots take over, I'm sticking with Team Bangadhipati!"
+                </p>
+                <h4>Dr. Sreyashi Dey<span>CEO, Imperial Bengal Aeronautics Private Limited (IBAPL)</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-line"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpeg" alt="client" />
+              <div>
+                <p>
+                  "Hey little bro, I have to admit, you're not as useless as I thought you were! Kidding, kidding... you're actually not half bad! Keep up the mediocre work, and who knows, maybe one day you'll reach almost-average status. Just kidding! Love you, bro! 😄"
+                </p>
+                <h4>Dr. Madhuparna Ray<span>Director, Bengal Institute of Advanced Science, Engineering and Research (BIASER)</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-half-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpeg" alt="client" />
+              <div>
+                <p>
+                  "Alright, little bro, I'll give credit where it's due – your tech skills are like magic... Hogwarts level, to be exact! You're like the Gandalf of coding, always pulling solutions out of your hat (or hoodie, in your case). Thanks for making the rest of us feel like mere Muggles in the digital world. Keep slinging that code, and maybe one day you'll upgrade from wizard to tech demigod!"
+                </p>
+                <h4>Dr. Saumyajit Bhaduri<span>Director, Bengal Institute of Medical Sciences (BIMS)</span></h4>
+                <div class="client__ratings">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container blog__container" id="blog">
+      <p class="section__subheader">Blog</p>
+      <h2 class="section__header">I Love To Write Articles</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.webp" alt="blog" />
+          <p>Historical Case Study</p>
+          <h4>EXPLORING BENGAL'S CASTE MOSAIC: A TAPESTRY OF TRADITION AND LEGACY</h4>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpeg" alt="blog" />
+          <p>Case Study</p>
+          <h4>PM MODI'S REPORT CARD - 9 YEARS OF BJP-LED NDA RULE IN INDIA</h4>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.webp" alt="blog" />
+          <p>Historical Case Study</p>
+          <h4>BENGALI TEMPLE HERITAGE LOST TO TIME</h4>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Bangadhipati</a></h5>
+          <p>
+            Versatile professional with a comprehensive skill set spanning programming languages like C, C++, Java and Python, alongside expertise in web development tools such as HTML, CSS and JavaScript frameworks. Proficient in database management systems like MongoDB and experienced in DevOps practices including CI/CD, Docker and Kubernetes. Skilled in Big Data technologies like Apache Spark and app development with Kotlin, with a background in ethical hacking and IoT. Proficient in design tools like Figma and cloud computing platforms AWS, Azure and Google Cloud Platform, as well as blockchain technologies.
+          </p>
+          <div class="footer__socials">
+            <a href="mailto:bangadhipati@gmail.com"><i class="ri-mail-fill"></i></a>
+            <a href="https://github.com/Bangadhipati"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/Bangadhipati"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://twitter.com/Bangadhipati"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">DevOps</a>
+            <a href="#">BigData</a>
+            <a href="#">IoT</a>
+            <a href="#">Ethical Hacking</a>
+            <a href="#">Cloud Computing</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+            <a href="#">My Blog</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright (C) - 2024 | Developed By Bangadhipati
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
