@@ -10,20 +10,17 @@ Beyond my technical abilities, I possess strong communication skills, enabling m
 
 ## Projects
 
-### Project 1: [Project Name]
-- Description: Brief description of the project.
-- Technologies Used: List of technologies/tools used.
-- Link: [Project Link](link-to-project)
+### Project 1: Web Page of Bengal Institute of Medical Sciences (BIMS)
+- Technologies Used: HTML, CSS, JavaScript
+- Link: https://bangadhipati.github.io/bims/
 
-### Project 2: [Project Name]
-- Description: Brief description of the project.
-- Technologies Used: List of technologies/tools used.
-- Link: [Project Link](link-to-project)
+### Project 2: Web Page of Bengal Institute of Advanced Science, Engineering and Research (BIASER)
+- Technologies Used: HTML, CSS, JavaScript
+- Link: https://bangadhipati.github.io/biaser/
 
-### Project 3: [Project Name]
-- Description: Brief description of the project.
-- Technologies Used: List of technologies/tools used.
-- Link: [Project Link](link-to-project)
+### Project 3: Virat Kohli Statistics using Power BI
+- Excel, Power BI
+- Link: https://github.com/Bangadhipati/ViratKohliStatsPowerBI
 
 ## Skills
 
