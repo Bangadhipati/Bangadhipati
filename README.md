@@ -22,9 +22,32 @@ Beyond my technical abilities, I possess strong communication skills, enabling m
 - Excel, Power BI
 - Link: https://github.com/Bangadhipati/ViratKohliStatsPowerBI
 
-## Skills
+## Hard Skills
 
-- 
+- Programming Languages: C, C++, C#, Java, Python, Golang, Rust
+- Web Development: HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, Redux, Express.js
+- Databases: MongoDB, NoSQL
+- DevOps: Continuous Integration/Continuous Deployment (CI/CD), Docker, Kubernetes
+- Big Data: Apache Spark
+- App Development: Kotlin
+- Ethical Hacking: Kali Linux
+- Internet of Things (IoT)
+- Design Tools: Figma
+- Cloud Computing: AWS, Azure, Google Cloud Platform
+- Blockchain Technologies
+
+## Soft Skills
+
+- Communication
+- Teamwork
+- Problem-solving Work Ethic
+- Leadership
+- Adaptability
+- Creativity
+- Critical Thinking
+- Time Management
+- Attention to Detail
+- Continuous Learning
 
 ## Experience
 
@@ -36,7 +59,16 @@ Beyond my technical abilities, I possess strong communication skills, enabling m
 
 ## Certifications
 
-- 
+- C
+- C++
+- C#
+- Web Development
+- Android Development
+- Machine Learning
+- Data Science
+- Java
+- Python
+- Ethical Hacking
 
 ## Contact
 
