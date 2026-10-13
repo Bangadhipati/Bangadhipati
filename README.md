@@ -1,6 +1,6 @@
 <h3 align="left">Hi, I'm</h3>
 <h1 align="left">Debarghya Bhowmick</h1>
-<h3 align="left">Full Stack AI Engineer | Researcher | Problem Solver | Team Leader | System Design | DSA | Building Deep Tech Solutions Beyond Sectors | Author | Founder @AstraGenX | Former Intern @HAL @JU @HIT</h3>
+<h3 align="center">Full Stack AI Engineer | Researcher | Problem Solver | Team Leader | System Design | DSA | Building Deep Tech Solutions Beyond Sectors | Author | Founder @AstraGenX | Former Intern @HAL @JU @HIT</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/bangadhipati" target="_blank">
