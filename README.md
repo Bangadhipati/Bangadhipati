@@ -23,7 +23,7 @@
 
 I am a **Full Stack AI Engineer** and **Deep-Tech Researcher** dedicated to building scalable, high-impact AI systems.
 
-With a background spanning startup leadership as Founder & CEO of AstraGenX, a Software Engineering Intern at Hindustan Aeronautics Limited (HAL) and research intern roles at the Jadavpur University and the Haldia Institute of Technology, I bridge the gap between complex theoretical AI and production-grade software engineering.
+With a background spanning startup leadership as Founder & CEO of AstraGenX, Software Engineering internships at Hindustan Aeronautics Limited (HAL) and Ecovion, and research roles at Jadavpur University and Haldia Institute of Technology, I bridge the gap between complex theoretical AI and production-grade software engineering.
 
 **What I Bring to the Table:**
 - **End-to-End AI & Full Stack:** Expertise in designing production-ready web architectures, predictive ML pipelines, and GPU-accelerated NLP models.
